@@ -78,7 +78,7 @@ export default {
                 { icon: 'mdi-view-dashboard', text: 'Dashboard', route: '/'},
                 { icon: 'mdi-account', text: 'Pending TL', route: '/pendingTL'},
                 { icon: 'mdi-account', text: 'Pending TS', route: '/pendingTS'},
-                { icon: 'mdi-account-group', text: 'Settings', route: '/settings'},
+                { icon: 'mdi-cog-outline', text: 'Settings', route: '/settings'},
             ]
         }
     }
