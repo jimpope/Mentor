@@ -75,9 +75,10 @@ export default {
             drawer: false,
             snackbar: false,
             links: [
-                { icon: 'mdi-view-dashboard', text: 'Pending TM', route: '/'},
-                { icon: 'mdi-account', text: 'Pending TS', route: '/About'},
-                { icon: 'mdi-account-group', text: 'Settings', route: '/Home'},
+                { icon: 'mdi-view-dashboard', text: 'Dashboard', route: '/'},
+                { icon: 'mdi-account', text: 'Pending TL', route: '/pendingTL'},
+                { icon: 'mdi-account', text: 'Pending TS', route: '/pendingTS'},
+                { icon: 'mdi-account-group', text: 'Settings', route: '/settings'},
             ]
         }
     }

@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <h1>Homepage</h1>
+  <div class="Settings">
+    <h1>Application Settings</h1>
   </div>
 </template>
 
