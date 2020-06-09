@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
 import PendingTL from '../views/PendingTL.vue'
-import PendingTS from '../views/PendingTL.vue'
+import PendingTS from '../views/PendingTS.vue'
 import Settings from '../views/Settings.vue'
 
 Vue.use(VueRouter)

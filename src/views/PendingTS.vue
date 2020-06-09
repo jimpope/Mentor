@@ -1,6 +1,6 @@
 <template>
-  <div class="PendingTL">
-    <h1>Pending Terminal Leader</h1>
+  <div class="PendingTS">
+    <h1>Pending Terminal Safety Leader</h1>
   </div>
 </template>
 
