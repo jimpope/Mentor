@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
-import PendingTL from '../views/PendingTL.vue'
-import PendingTS from '../views/PendingTL.vue'
+import Pending from '../views/Pending.vue'
 import Settings from '../views/Settings.vue'
 
 Vue.use(VueRouter)
@@ -14,14 +13,9 @@ Vue.use(VueRouter)
     component: Dashboard
   },
   {
-    path: '/pendingTL',
-    name: 'PendingTL',
-    component: PendingTL
-  },
-  {
-    path: '/pendingTS',
-    name: 'PendingTS',
-    component: PendingTS
+    path: '/pending',
+    name: 'Pending',
+    component: Pending
   },
   {
     path: '/settings',

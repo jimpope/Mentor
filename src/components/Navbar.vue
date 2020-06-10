@@ -76,8 +76,7 @@ export default {
             snackbar: false,
             links: [
                 { icon: 'mdi-view-dashboard', text: 'Dashboard', route: '/'},
-                { icon: 'mdi-account', text: 'Pending TL', route: '/pendingTL'},
-                { icon: 'mdi-account', text: 'Pending TS', route: '/pendingTS'},
+                { icon: 'mdi-account', text: 'Pending Approval', route: '/pending'},
                 { icon: 'mdi-cog-outline', text: 'Settings', route: '/settings'},
             ]
         }
