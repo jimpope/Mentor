@@ -1,13 +1,12 @@
 <template>
    <div>
-        <h3>Pending Approvals</h3>
-        <div class="approvals">
-            <div 
-                v-for="(pending,i) in allPending" :key="i" 
-                class="pending">
-                <br>{{ pending.driverCode }} - {{ pending.applicant }} - {{ pending.status}}
-            </div>
-        </div>
+      <div class="approvals">
+          <div 
+              v-for="(pending,i) in allPending" :key="i" 
+              class="pending">
+              <br>{{ pending.driverCode }} - {{ pending.applicant }} - {{ pending.status}}
+          </div>
+      </div>
   </div>
 </template>
 

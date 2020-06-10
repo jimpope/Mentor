@@ -1,6 +1,6 @@
 <template>
   <div class="PendingTL">
-    <h1>Pending Terminal Leader</h1>
+    <h2>Pending Approval</h2>
     <PendingApprovals/>
   </div>
 </template>
