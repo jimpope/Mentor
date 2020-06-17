@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
 import Pending from '../views/Pending.vue'
 import Settings from '../views/Settings.vue'
+import App from '../views/App.vue'
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,12 @@ Vue.use(VueRouter)
     path: '/pending',
     name: 'Pending',
     component: Pending
+  },
+  {
+    path: '/app/:id',
+    name: 'app',
+    props: true,
+    component: App
   },
   {
     path: '/settings',

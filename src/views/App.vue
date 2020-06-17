@@ -1,9 +1,8 @@
 <template>
-  <div class="Pending">
-    <h2>Pending Approval</h2>
-    <PendingApprovals/>
+  <div class="Application">
+    <h2>Application</h2>
 
-    
+    <span>Id: {{ id }}</span>
   </div>
 </template>
 
@@ -11,9 +10,9 @@
 import PendingApprovals from '@/components/PendingApprovals.vue'
 
 export default {
-  name: 'Pending',
+  name: 'App',
   components: {
-    PendingApprovals
+    
   },
   props: [
     'id'
